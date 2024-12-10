@@ -7,7 +7,7 @@ from datetime import datetime
 import re
 from tkinter import Tk, Label, Entry, Button
 
-mydb = mysql.connector.connect(host='localhost',username='root',password='Sendhan@2005',database='app_project')
+mydb = mysql.connector.connect(host='localhost',user='root',password='Sendhan@2005',database='app_project')
 
 mycursor = mydb.cursor()
 
